@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="coding" viewBox="0 0 63.4 63.39">
+  <g id="ICONS">
+    <g>
+      <g>
+        <g>
+          <rect width="63.4" height="63.39" fill="#5fe4d4" rx="3.79" ry="3.79"></rect>
+          <path fill="#fff" d="M58.4 13.56v43.83c0 .55-.45 1-1 1H6c-.55 0-1-.45-1-1V13.56c0-.55.45-1 1-1h5.77c.22 0 .43-.07.6-.2l5.63-4.27c.17-.13.39-.2.6-.2h10.07c.55 0 1 .45 1 1v2.68c0 .55.45 1 1 1h26.71c.55 0 1 .45 1 1ZM55.95 6.95c0 1.21-.99 2.19-2.2 2.19s-2.19-.98-2.19-2.19.98-2.2 2.19-2.2 2.2.99 2.2 2.2ZM48.8 6.95c0 1.21-.99 2.19-2.2 2.19s-2.19-.98-2.19-2.19.98-2.2 2.19-2.2 2.2.99 2.2 2.2ZM41.65 6.95c0 1.21-.99 2.19-2.2 2.19s-2.19-.98-2.19-2.19.98-2.2 2.19-2.2 2.2.99 2.2 2.2Z"></path>
+        </g>
+        <rect width="41.57" height="19.07" x="10.91" y="33.13" fill="#fbbc05" rx="1.97" ry="1.97"></rect>
+        <line x1="10.91" x2="52.48" y1="20.37" y2="20.37" fill="#fff" stroke="#000" stroke-linecap="round" stroke-linejoin="round"></line>
+        <line x1="10.91" x2="45.56" y1="26.16" y2="26.16" fill="#fff" stroke="#000" stroke-linecap="round" stroke-linejoin="round"></line>
+      </g>
+      <text font-family="Calibri-Bold,Calibri" font-size="15.41" font-weight="700" transform="translate(20.35 47.16)"><tspan x="0" y="0">&lt;/&gt;</tspan></text>
+    </g>
+  </g>
+</svg>

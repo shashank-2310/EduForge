@@ -16,7 +16,7 @@ export default function SideBar() {
         path: string,
     }
 
-    const Menu = [
+    const Menu : MenuItem[] = [
         {
             id: 1,
             name: 'Home',
