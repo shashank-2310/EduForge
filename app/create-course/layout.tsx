@@ -1,11 +1,20 @@
-import React from 'react'
-import Header from '../dashboard/_components/Header'
+"use client"
 
-function CreateCouseLayout({children} : {children: React.ReactNode}) {
+import React, { useState } from 'react'
+import Header from '../dashboard/_components/Header'
+import { UserInputContext } from '../_context/UserInputContext'
+
+function CreateCouseLayout({ children }: { children: React.ReactNode }) {
+    const [userInput, setUserInput] = useState([]);
+
     return (
         <div>
-            <Header/>
-            {children}
+            <UserInputContext.Provider value={{ userInput, setUserInput }}>
+                <>
+                    <Header />
+                    {children}
+                </>
+            </UserInputContext.Provider>
         </div>
     )
 }

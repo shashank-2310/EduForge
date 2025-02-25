@@ -1,11 +1,12 @@
 "use client"
 
 import { Button } from '@/components/ui/button'
-import React, { useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import { HiClipboardDocumentCheck, HiLightBulb, HiMiniSquares2X2 } from 'react-icons/hi2'
 import SelectCategory from './_components/SelectCategory'
 import TopicsDescription from './_components/TopicsDescription'
 import SelectOption from './_components/SelectOption'
+import { UserInputContext } from '../_context/UserInputContext'
 
 function CreateCouse() {
     type StepperOption = {
@@ -33,6 +34,14 @@ function CreateCouse() {
     ]
 
     const [activeIndex, setActiveIndex] = useState(0);
+
+    const { userInput, setUserInput } = useContext(UserInputContext);
+
+    useEffect(() => {
+        console.log(userInput);
+    }, [userInput])
+
+
 
     return (
         <div>
